@@ -1,4 +1,4 @@
-body {
+html, body {
   font: 14px "Century Gothic", Futura, sans-serif;
   height: 100%;
   width: 100%;
@@ -41,7 +41,7 @@ li {
 }
 
 .game {
-  transform: translate(-50%, -50%);
+  transform: translate(-75%, -50%);
   flex-direction: row;
   position: absolute;
   display: flex;
