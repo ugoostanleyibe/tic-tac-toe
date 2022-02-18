@@ -1,0 +1,49 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "*",
+    "@testing-library/user-event": "*",
+    "@testing-library/react": "*",
+    "react-router-dom": "*",
+    "react-scripts": "*",
+    "web-vitals": "*",
+    "react-dom": "*",
+    "react": "*",
+    "sass": "*"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.js src/**/*.jsx",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-standard": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-node": "*",
+    "eslint": "*"
+  }
+}
