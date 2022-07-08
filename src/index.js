@@ -12,8 +12,8 @@ const Square = (props) => {
 }
 
 Square.propTypes = {
-  onClick: PropTypes.func,
-  value: PropTypes.string
+  onClick: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired
 }
 
 class Board extends React.Component {
@@ -45,8 +45,8 @@ class Board extends React.Component {
 }
 
 Board.propTypes = {
-  squares: PropTypes.array,
-  onClick: PropTypes.func
+  squares: PropTypes.array.isRequired,
+  onClick: PropTypes.func.isRequired
 }
 
 class Game extends React.Component {
